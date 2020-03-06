@@ -19,5 +19,12 @@ where `VERSION` is the latest release of https://github.com/danger/swift
 Push to DockerHub
 
 ```bash
-docker push xogroup/danger-swift:VERSION
+$ docker push xogroup/danger-swift:VERSION
+```
+
+Update `latest` tag
+
+```bash
+$ docker tag xogroup/danger-swift:VERSION xogroup/danger-swift:latest
+$ docker push xogroup/danger-swift:latest
 ```
