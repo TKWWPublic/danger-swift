@@ -1,0 +1,6 @@
+name: 'GitHub Action for Danger-Swift + SwiftLint'
+description: 'Runs Danger-Swift with SwiftLint'
+author: 'Evan Coleman <e@edc.me>'
+runs:
+  using: 'docker'
+  image: 'docker://xogroup/danger-swift:latest'
